@@ -37,5 +37,4 @@ namespace DNWS
         public PM25data data { get; set;}
 
     }
-
 }

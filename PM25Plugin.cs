@@ -32,7 +32,6 @@ namespace DNWS
             string content = sr.ReadToEnd();
             pm25reading = JsonSerializer.Deserialize<PM25Reading>(content);
         }
-
         public void PreProcessing(HTTPRequest request)
         {
             throw new NotImplementedException();
@@ -68,4 +67,5 @@ namespace DNWS
             throw new NotImplementedException();
         }
     }
+
 }
